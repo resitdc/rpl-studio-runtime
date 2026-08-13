@@ -1,44 +1,77 @@
 {
   "php": {
-    "latest": "8.3.0",
+    "latest": "8.4.0",
     "versions": {
       "8.3.0": {
         "android": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.3.0/php-android-arm64-v8a.tar.gz",
-            "sha256": "4c7fec2521db98682077428f11d140d8317c3266e7b0e02f847bcef3db0d474d",
-            "size": 34685165
+            "sha256": "5060da61e18eca9ff8b2d8112757e2839a61d3d4dc316ed924df4c9e6bf002da",
+            "size": 34685128
           }
         },
         "linux": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.3.0/php-linux-arm64.tar.gz",
-            "sha256": "69127ae14cbfda00ea3ff0147a0b610a298acb4b7af756b8ac2c05a16b501a31",
-            "size": 9791574
+            "sha256": "db323af015615bb1c640aae40cb7e8f31d4742313081b30a93c05639dd3f931f",
+            "size": 9791488
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.3.0/php-linux-x64.tar.gz",
-            "sha256": "4c10567d3acb4e3b7ee25f5e3beca4a04261c8ea73fefec61686fb2e208eaab3",
-            "size": 9427159
+            "sha256": "533930be428eb1b102835ec43ef755c5a9d51ea03379a6da4b7749047acf0346",
+            "size": 9427147
           }
         },
         "macos": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.3.0/php-macos-arm64.tar.gz",
-            "sha256": "811d82f9f285a4931b17541451c0eebce2d013e4d47591dad84813480bf05aad",
-            "size": 9201174
+            "sha256": "ac87921ceb75cd945bccea29004d9150f52606af82e3ed7e9acf4caa9e5597f6",
+            "size": 9201182
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.3.0/php-macos-x64.tar.gz",
-            "sha256": "789d708f9c741e00a0ce183fbb814ea334ce80a16e840534a8969e821fd5216e",
-            "size": 9340999
+            "sha256": "629956339652cff7f78b531d9344906efd71a8a48d7f9b36b22e75dd0d406f03",
+            "size": 9341003
           }
         },
         "windows": {
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.3.0/php-windows-x64.zip",
-            "sha256": "df8dba37f3624ffd4baec355d63af179d7a7096c481a0061c31dc0f3c7fdd084",
+            "sha256": "b2ee3c6201352adc6d6008d57c08eaccba5bfdedea86d7bbb1e3b6ce741670fa",
             "size": 848192
+          }
+        }
+      },
+      "8.4.0": {
+        "android": {
+          "arm64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-android-arm64-v8a.tar.gz",
+            "sha256": "8e11b4f3df5d2d03426cb96521a295d65ad912e388e21d2f789ce56a25454f4d",
+            "size": 34683798
+          }
+        },
+        "linux": {
+          "arm64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-linux-arm64.tar.gz",
+            "sha256": "c9c982bcc2089d89bc9f470337305cfd393f142326b47a745d8735fac4b083bd",
+            "size": 9702663
+          },
+          "x64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-linux-x64.tar.gz",
+            "sha256": "a966410b5be65abcf7f1193ed8015dd60c25ee466003f24d76f785a2d6ff33c3",
+            "size": 9605702
+          }
+        },
+        "macos": {
+          "arm64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-macos-arm64.tar.gz",
+            "sha256": "96779130788dfca5056531c4a08d6216bec954d0bd16e7ad858144357244d800",
+            "size": 10425892
+          },
+          "x64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-macos-x64.tar.gz",
+            "sha256": "f409eb86cc7c5a89aceb157c4a46a51cf26aedab7c367406aa74cbb33afbe5ea",
+            "size": 10404415
           }
         }
       }
@@ -51,39 +84,39 @@
         "android": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/node-v22.0.0/node-android-arm64-v8a.tar.gz",
-            "sha256": "eba026ecda1eb7d42702f97074b35da3322dc004b50affb95899b246f12fbb1c",
-            "size": 40210270
+            "sha256": "89da6b8fe4b87bae67284019e4f9978eada5a731f272e2e9c7f78875cd5334c4",
+            "size": 40203889
           }
         },
         "linux": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/node-v22.0.0/node-linux-arm64.tar.gz",
-            "sha256": "59039f50195c81132502c6161d388058231e6193120973a8c2baa0f6ae78bb90",
-            "size": 43260512
+            "sha256": "49d13231e77238c7e657d3561734e757482641d5a4b402605157cb1cff8b39ab",
+            "size": 43265013
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/node-v22.0.0/node-linux-x64.tar.gz",
-            "sha256": "c6c4d424b8cde1a3b690b02e706babec75c6348f3d78749d128e3d37a9cc7b1d",
-            "size": 43638606
+            "sha256": "cc6f464d6cccc57838930cca63b2837f68198391f9916991bee3fc90b519ad03",
+            "size": 43632829
           }
         },
         "macos": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/node-v22.0.0/node-macos-arm64.tar.gz",
-            "sha256": "6a2c5a2065e6089aff09956ad2164f1584f3397717b6fc1f83fb50c2a00193e5",
-            "size": 37892613
+            "sha256": "0f5a622deb756895b87aab1e4071d68987344dd3f1553037442a2052e0f9e507",
+            "size": 37892873
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/node-v22.0.0/node-macos-x64.tar.gz",
-            "sha256": "6fb488bf7ffc653ad71694d37b7dd2d80718bdd2581f274008a00be7ae9f9ae0",
-            "size": 39963443
+            "sha256": "7bfd7de837b4ee89e5406f598abd9a94402aee5fa511addb3b4b575f66a3d4f5",
+            "size": 39963237
           }
         },
         "windows": {
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/node-v22.0.0/node-windows-x64.zip",
-            "sha256": "acf270735fc10a2eeae8fc5808bff3d93b2664436457deeb2f4c6437e8905470",
-            "size": 33819380
+            "sha256": "c56ba3cef2209bc858701421993ff038432f2ee04d3027b814b28f0794fc3a48",
+            "size": 33820007
           }
         }
       }
