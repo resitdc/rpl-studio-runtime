@@ -81,7 +81,7 @@ case "$TARGET" in
         FILENAME=$(grep -A 20 "^Package: $PKG\$" Packages | grep "^Filename: " | head -n 1 | awk '{print $2}')
         if [ -n "$FILENAME" ]; then
             echo "Downloading $PKG..."
-            curl -f -s -L -o "$PKG.deb" "https://grimler.se/termux/termux-main/$FILENAME"
+            curl -f -L --retry 3 --retry-all-errors -o "$PKG.deb" "https://grimler.se/termux/termux-main/$FILENAME" || { echo "Failed to download $PKG"; exit 1; }
             
             ar x "$PKG.deb" 2>/dev/null || true
             tar -xf data.tar.xz 2>/dev/null || tar -xf data.tar.gz 2>/dev/null || echo "Failed to extract $PKG data"
