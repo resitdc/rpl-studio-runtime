@@ -67,14 +67,13 @@ case "$TARGET" in
     echo "Fetching Termux Packages index..."
     curl -f -s -L -o Packages "https://grimler.se/termux/termux-main/dists/stable/main/binary-$ANDROID_ARCH/Packages"
     
-    # We will use openjdk-17 for Android as termux might not have a stable 21 yet, or it's heavy
-    PKGS="openjdk-17 libandroid-support libffi openssl libbz2 libsqlite liblzma zlib libgdbm libcrypt ncurses readline ca-certificates freetype giflib libiconv libjpeg-turbo libpng libwebp xorgproto"
+    PKGS="openjdk-17 libandroid-shmem libandroid-spawn littlecms alsa-plugins libandroid-support libffi openssl libbz2 libsqlite liblzma zlib libgdbm libcrypt ncurses readline ca-certificates freetype giflib libiconv libjpeg-turbo libpng libwebp xorgproto"
     
     for PKG in $PKGS; do
         FILENAME=$(grep -A 20 "^Package: $PKG\$" Packages | grep "^Filename: " | head -n 1 | awk '{print $2}')
         if [ -n "$FILENAME" ]; then
             echo "Downloading $PKG..."
-            curl -f -s -L -o "$PKG.deb" "https://grimler.se/termux/termux-main/$FILENAME"
+            curl -f -L --retry 3 --retry-all-errors -o "$PKG.deb" "https://grimler.se/termux/termux-main/$FILENAME" || { echo "Failed to download $PKG"; exit 1; }
             
             ar x "$PKG.deb" 2>/dev/null || true
             tar -xf data.tar.xz 2>/dev/null || tar -xf data.tar.gz 2>/dev/null || echo "Failed to extract $PKG data"
