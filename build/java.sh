@@ -88,10 +88,10 @@ case "$TARGET" in
     mkdir -p "$OUT_DIR/bin"
     mkdir -p "$OUT_DIR/jvm"
     
-    if [ -d "tmp_android/data/data/com.termux/files/usr/lib/jvm/openjdk-17" ]; then
-        cp -a tmp_android/data/data/com.termux/files/usr/lib/jvm/openjdk-17/* "$OUT_DIR/jvm/"
+    if [ -d "tmp_android/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk" ]; then
+        cp -a tmp_android/data/data/com.termux/files/usr/lib/jvm/java-17-openjdk/* "$OUT_DIR/jvm/"
     else
-        echo "Error: openjdk-17 not found!"
+        echo "Error: java-17-openjdk not found!"
         exit 1
     fi
     
