@@ -32,6 +32,7 @@ case "$TARGET" in
     echo "Downloading $PY_FILE..."
     curl -L -o "$PY_FILE" "$BASE_URL/$PY_FILE"
     tar -xzf "$PY_FILE"
+    chmod +x python/bin/* 2>/dev/null || true
     mv python "$OUT_DIR/"
     rm -f "$PY_FILE"
     ;;
@@ -40,6 +41,7 @@ case "$TARGET" in
     echo "Downloading $PY_FILE..."
     curl -L -o "$PY_FILE" "$BASE_URL/$PY_FILE"
     tar -xzf "$PY_FILE"
+    chmod +x python/bin/* 2>/dev/null || true
     mv python "$OUT_DIR/"
     rm -f "$PY_FILE"
     ;;
@@ -48,6 +50,7 @@ case "$TARGET" in
     echo "Downloading $PY_FILE..."
     curl -L -o "$PY_FILE" "$BASE_URL/$PY_FILE"
     tar -xzf "$PY_FILE"
+    chmod +x python/bin/* 2>/dev/null || true
     mv python "$OUT_DIR/"
     rm -f "$PY_FILE"
     ;;
@@ -56,6 +59,7 @@ case "$TARGET" in
     echo "Downloading $PY_FILE..."
     curl -L -o "$PY_FILE" "$BASE_URL/$PY_FILE"
     tar -xzf "$PY_FILE"
+    chmod +x python/bin/* 2>/dev/null || true
     mv python "$OUT_DIR/"
     rm -f "$PY_FILE"
     ;;
@@ -75,7 +79,7 @@ case "$TARGET" in
     echo "Fetching Termux Packages index..."
     curl -f -s -L -o Packages "https://grimler.se/termux/termux-main/dists/stable/main/binary-$ANDROID_ARCH/Packages"
     
-    PKGS="python libandroid-support libffi openssl libbz2 libsqlite liblzma zlib libgdbm libcrypt ncurses readline ca-certificates"
+    PKGS="python python-pip libandroid-support libffi openssl libbz2 libsqlite liblzma zlib libgdbm libcrypt ncurses readline ca-certificates"
     
     for PKG in $PKGS; do
         FILENAME=$(grep -A 20 "^Package: $PKG\$" Packages | grep "^Filename: " | head -n 1 | awk '{print $2}')
