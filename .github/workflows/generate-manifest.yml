@@ -2,7 +2,7 @@ name: Generate Manifest
 
 on:
   workflow_run:
-    workflows: ["Build PHP Runtime", "Build Node Runtime"]
+    workflows: ["Build PHP Runtime", "Build Node Runtime", "Build Python Runtime", "Build Java Runtime"]
     types:
       - completed
   workflow_dispatch:
