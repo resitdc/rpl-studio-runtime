@@ -123,7 +123,7 @@
     }
   },
   "java": {
-    "latest": "17",
+    "latest": "21",
     "versions": {
       "17": {
         "android": {
@@ -162,6 +162,46 @@
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v17/java-windows-x64.zip",
             "sha256": "2c48957e22edd7a45189c029bf4967c7b6bd5986d31c702fa16ba731984828ff",
             "size": 42180810
+          }
+        }
+      },
+      "21": {
+        "android": {
+          "arm64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-android-arm64-v8a.tar.gz",
+            "sha256": "2406ea9184b54324882c1bfea3dd7e8797b480a6219f969e288aa2b2c605aa1f",
+            "size": 125945486
+          }
+        },
+        "linux": {
+          "arm64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-linux-arm64.tar.gz",
+            "sha256": "70edf2eed94ccef3df97e92f401d13259996aae03d7fe20e59e868aca496b359",
+            "size": 51621569
+          },
+          "x64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-linux-x64.tar.gz",
+            "sha256": "49ce03f32fe3db2703ff580a89bde475bd96d12806184a5188367604c4d58872",
+            "size": 52555256
+          }
+        },
+        "macos": {
+          "arm64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-macos-arm64.tar.gz",
+            "sha256": "2b3b84a56c6ede0128bda16268c90613573e44d2a424e9707de87b3ffd4b6d23",
+            "size": 48314415
+          },
+          "x64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-macos-x64.tar.gz",
+            "sha256": "2ef7f08c7222cd7a67ec794017bd95ec25d546c1472a34e26198509ceb286fc5",
+            "size": 42200367
+          }
+        },
+        "windows": {
+          "x64": {
+            "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-windows-x64.zip",
+            "sha256": "aac8e2d81fdfbf1439c9d85e6f9568f337c24a89c908e6001253ce237361e4af",
+            "size": 47176973
           }
         }
       }
