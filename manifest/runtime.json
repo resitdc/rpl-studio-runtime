@@ -169,39 +169,39 @@
         "android": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-android-arm64-v8a.tar.gz",
-            "sha256": "2406ea9184b54324882c1bfea3dd7e8797b480a6219f969e288aa2b2c605aa1f",
-            "size": 125945486
+            "sha256": "b93f4e2b1f8f4e66afc374bedc4ceae6ca4a5d6498097995509d6b164884c4d0",
+            "size": 125944990
           }
         },
         "linux": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-linux-arm64.tar.gz",
-            "sha256": "70edf2eed94ccef3df97e92f401d13259996aae03d7fe20e59e868aca496b359",
-            "size": 51621569
+            "sha256": "54f55e779890d52eb5e1683b848ef276d2a3ce0c3e455847105168adb05fd8a0",
+            "size": 51623468
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-linux-x64.tar.gz",
-            "sha256": "49ce03f32fe3db2703ff580a89bde475bd96d12806184a5188367604c4d58872",
-            "size": 52555256
+            "sha256": "03a45d64bed47407ddb6fd75ca922fbce7fc2016894cb02ab0907e1069f2d8e9",
+            "size": 52549714
           }
         },
         "macos": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-macos-arm64.tar.gz",
-            "sha256": "2b3b84a56c6ede0128bda16268c90613573e44d2a424e9707de87b3ffd4b6d23",
-            "size": 48314415
+            "sha256": "61ce605a469c6ac27270b9db1dcd178e7b561a8e8f6296b5e9efdfdc6a7c3b8d",
+            "size": 48315539
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-macos-x64.tar.gz",
-            "sha256": "2ef7f08c7222cd7a67ec794017bd95ec25d546c1472a34e26198509ceb286fc5",
-            "size": 42200367
+            "sha256": "38d5115e4cc835e1218748e463d5143c98a1d4a1ada8d231773b7dd7b9aa91b3",
+            "size": 42200459
           }
         },
         "windows": {
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-windows-x64.zip",
-            "sha256": "aac8e2d81fdfbf1439c9d85e6f9568f337c24a89c908e6001253ce237361e4af",
-            "size": 47176973
+            "sha256": "a3a52d05b0eb74ff26e56f8cb837259aab3c65fa90023dcaa35502f0530d30b7",
+            "size": 47180430
           }
         }
       }
