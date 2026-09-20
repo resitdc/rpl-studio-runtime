@@ -46,32 +46,32 @@
         "android": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-android-arm64-v8a.tar.gz",
-            "sha256": "fff3bbe9f963f3469fdd412227853f7b5be8c3ea205029ab3c8ed8964aee6cb3",
-            "size": 34699193
+            "sha256": "87b0daedd8c2055c704df4c18c500617c99faa051c4eee287eb8f8870e030d83",
+            "size": 34702698
           }
         },
         "linux": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-linux-arm64.tar.gz",
-            "sha256": "57665cc4a1ae61ff60e0116537c4219baf22ff58e0f76e66d06e0fea993ea251",
+            "sha256": "5b0fa65f9ffe9a11046eb33836d9a32d9453edd6692b7fcf74c299c8fd798cfe",
             "size": 9703234
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-linux-x64.tar.gz",
-            "sha256": "3672f6cc80a7ee3d1ccd574ad255b6bb037e582c48327f51d72195ab709a0cf1",
-            "size": 9606321
+            "sha256": "538f44ed5469177b4b0363557504948771d502d7fc271954f34dd4d9ca1481a7",
+            "size": 9606323
           }
         },
         "macos": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-macos-arm64.tar.gz",
-            "sha256": "783167c441f490a2298ad77f56a9f124f3692e0e1121da2c68a59fa6eca8f248",
-            "size": 10426261
+            "sha256": "2369302794a9dfe29a1446f1d5874947d26f29104b4d0bcf865fc13b98ba25ca",
+            "size": 10426262
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-macos-x64.tar.gz",
-            "sha256": "a27813c2bc3d2801c9646aaefbe8f7b84e21cdd52adbe51f1ecfc05e4b852ccd",
-            "size": 10405223
+            "sha256": "dc623b8acfccd0372d2970f9c6232772aaf8c77ce10be5b82a4b8b7bc6bcd62b",
+            "size": 10405216
           }
         }
       }
