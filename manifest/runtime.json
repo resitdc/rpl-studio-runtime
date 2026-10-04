@@ -214,38 +214,38 @@
         "android": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/python-v3.12.4/python-android-arm64-v8a.tar.gz",
-            "sha256": "38a6d883af66c1f1429917ef5b42db0ac7e7366a656698dfd6eb033813f63f0d",
-            "size": 12753634
+            "sha256": "05fb7a0c29d648c3903b5f3383a0419ff13cfbd4cd62a80578d6fe1980d01b8d",
+            "size": 12762019
           }
         },
         "linux": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/python-v3.12.4/python-linux-arm64.tar.gz",
-            "sha256": "1b969b0c40f3c22ca6e60d3d4d300508d102c374a4ee1523604696bda3df6ed7",
-            "size": 25671905
+            "sha256": "299820ad98bd9f9cf0ed2d9c021b23d76c15874c6369b3e2c8759cc5b694078c",
+            "size": 25672470
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/python-v3.12.4/python-linux-x64.tar.gz",
-            "sha256": "827a4296ae02d1a797f1de7f7a6404751d3e3f2a7c650649f8d22b7295cb55ba",
-            "size": 63578480
+            "sha256": "cb908fdc964e0bfb6581fa8e591c49927f77a30e07b62ccdf991bde0f0b94563",
+            "size": 63578622
           }
         },
         "macos": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/python-v3.12.4/python-macos-arm64.tar.gz",
-            "sha256": "c7d62cff7779eebdf9c8e1e6091f4d7f6bad65790a13a0efe4b474f37fa5cbfe",
-            "size": 16691813
+            "sha256": "a8841627e0bfd1e0c646cadc77317fa2c27f0d6d96c5a30e078b03008ff75874",
+            "size": 16691750
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/python-v3.12.4/python-macos-x64.tar.gz",
-            "sha256": "ebab22b45944300f23f8ed12bba8500b09fd9d20784b0fe4476e503adcb85fc6",
-            "size": 17027451
+            "sha256": "f702abf630cfa8600f169d9b7ec999ef3c76f145ef505757b5bbeb1f4b3a8917",
+            "size": 17027467
           }
         },
         "windows": {
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/python-v3.12.4/python-windows-x64.zip",
-            "sha256": "dac531384789e906fd6da3a5c5f412e9e015a478612ee61c70250d0bb3a36fb6",
+            "sha256": "04d1b76c06ad740e45433111938f5a3a639c2f941dab1c29fd3ad4d0f49c7ebf",
             "size": 41190758
           }
         }
