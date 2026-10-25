@@ -169,32 +169,32 @@
         "android": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-android-arm64-v8a.tar.gz",
-            "sha256": "64965c6bd768ab1378d043e33f22ff6ab7f0cea927834818a964f0c00d8cbcdc",
-            "size": 125964983
+            "sha256": "bace1e442a7cd0c5fe865535c07f057e03bdf30d97328d2861f83840d6149998",
+            "size": 126023580
           }
         },
         "linux": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-linux-arm64.tar.gz",
-            "sha256": "9d63584abac6c8a446dc6a39c7357fa849a6498192c3efd148af197c350f7b4d",
-            "size": 51615310
+            "sha256": "b4e4c83e5ea0768b48c89a8b765694253ca351a83d15f9e1e5f69452dfb7606d",
+            "size": 51733437
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-linux-x64.tar.gz",
-            "sha256": "40543b50fa9dc648498585ef16276cade4c91cbb8889ac77ff01a31994b5ae6a",
-            "size": 52545161
+            "sha256": "b436ed155a027e1e9e9752d777932223cdc0212e72a3c7efca7407d91a271981",
+            "size": 52666204
           }
         },
         "macos": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-macos-arm64.tar.gz",
-            "sha256": "044c2e0d74e60e1ee2121d87bfab5d6f50ba45a1474e6ac45c18cfd86810777c",
-            "size": 48315539
+            "sha256": "492f259f8432a9592f8a049ef45e1943d7f4e9f2d44e3a7f8a7ad9dbce0de1d4",
+            "size": 48092083
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/java-v21/java-macos-x64.tar.gz",
-            "sha256": "7e397881b193eec5e135ba73c9a9547eb6280ca4b85a7f799e182e90385620b6",
-            "size": 42200459
+            "sha256": "5f3f13322a898c6865e0e900e8622a97970d2c8de6a4c6c2d9eda66e9d0dedc5",
+            "size": 41958362
           }
         },
         "windows": {
