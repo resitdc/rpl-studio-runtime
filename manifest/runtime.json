@@ -46,32 +46,32 @@
         "android": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-android-arm64-v8a.tar.gz",
-            "sha256": "3bf9c2db5f94d451e7cbb70468b8785c29392c12df0689d5a87dc50081453c5a",
-            "size": 34902438
+            "sha256": "2068105bf50e0ed75ff532a5c39e6a09c3a73c7fe68bd562d47c6f7763e104f8",
+            "size": 34962924
           }
         },
         "linux": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-linux-arm64.tar.gz",
-            "sha256": "98031e38b7636958f04ad3f30148673fd2306b1135cfc5d0eec3be5754d28365",
-            "size": 9746053
+            "sha256": "6813db9ba414ddf5e8b5c1bc5d6d45250dd23e4c1347d80e22c92077bdf91106",
+            "size": 9750459
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-linux-x64.tar.gz",
-            "sha256": "c419544dca3a3fd849c80fc13d7e648c3ccd1dba255c3779b148f414218571fe",
-            "size": 9649134
+            "sha256": "590be42081b0e3b154eeb1c6d9a94a3a3ccd2f106e08a7c86e6a6da2a6aaff76",
+            "size": 9653635
           }
         },
         "macos": {
           "arm64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-macos-arm64.tar.gz",
-            "sha256": "b57253379a856ca0741b43f4f2d38c24928d93a32581b88a0a4eb94f93a607d9",
-            "size": 10473312
+            "sha256": "37d0e7319a506fc17fcb9277023fc7042aad1f5e229136435849942d0bb7751b",
+            "size": 10476239
           },
           "x64": {
             "url": "https://github.com/resitdc/rakoda-runtime/releases/download/php-v8.4.0/php-macos-x64.tar.gz",
-            "sha256": "6109a62bc149cc46a781d28eb20842b885e06915efa6bf67b34088ea5c8bf9d5",
-            "size": 10447951
+            "sha256": "a48bbf6031c7605dd70e1ccbc1dbe2e90cb905029df0295f5a4968816193880e",
+            "size": 10450043
           }
         }
       }
